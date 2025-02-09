@@ -11,31 +11,38 @@ int main() {
     char nome_da_cidade[20];
     float populacao;
     float area;
-    float PIB;
+    int PIB;
     int turistico;
 
     printf("Digite o Codigo de Cidade:\n");
     scanf("%d", &codigo_da_cidade);
-    printf("Codigo da Cidade: %d\n ", codigo_da_cidade);
+
 
     printf("Dige o Nome da Cidade:\n");
-    scanf("%c", &nome_da_cidade);
-    printf("Nome da Cidade: %c\n ", nome_da_cidade);
+    scanf("%s", &nome_da_cidade);
+
 
     printf("Numero Total da Populacao:\n");
     scanf("%f", &populacao);
-    printf("Pupulaçao Total: %f\n ", populacao);
+
 
     printf("Digite a area total da sua cidade:\n");
     scanf("%f", &area);
-    printf("Populaçao total de: %f\n ", area);
+
 
     printf("Digite o PIB total da Cidade:\n");
-    scanf("%f", &PIB);
-    printf("PIB Total de: %f\n ", PIB);
+    scanf("%d", &PIB);
+
 
     printf("Digite a quantidade de pontos turisticos de cidade:\n");
     scanf("%d", turistico);
+
+
+    printf("Codigo da Cidade: %d\n ", codigo_da_cidade);
+    printf("Nome da Cidade: %s\n ", nome_da_cidade);
+    printf("Pupulaçao Total: %f\n ", populacao);
+    printf("Populaçao total de: %f\n ", area);
+    printf("PIB Total de: %d\n ", PIB);
     printf("Pontos Turisticos: %d\n ", turistico);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
