@@ -14,7 +14,7 @@ int main() {
     float PIB;
     int turistico;
 
-    printf("Digite o Codigo de Cidade:/n");
+    printf("Digite o Codigo de Cidade:\n");
     scanf("%d", &codigo_da_cidade);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
