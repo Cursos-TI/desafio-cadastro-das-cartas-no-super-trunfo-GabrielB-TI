@@ -16,6 +16,7 @@ int main() {
 
     printf("Digite o Codigo de Cidade:\n");
     scanf("%d", &codigo_da_cidade);
+    printf("Codigo da Cidade: %d\n ", codigo_da_cidade);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
